@@ -61,7 +61,8 @@ function AboutSection() {
           to maximize my ability to solve interesting problems with interesting people.
         </p>
         <p>
-          below is my personal multi-media anthology. shoot me recommendations at eyrinkim@stanford.edu!
+          below is my personal multi-media anthology (that admittedly has little to do with the above
+          and a lot to do with grappling with personhood). shoot me recommendations at eyrinkim@stanford.edu!
         </p>
       </div>
     </div>
