@@ -7,7 +7,7 @@ export const timeline = [
     date: "Jun – Aug 2025",
     title: "engineering",
     org: "ICEYE",
-    desc: "designed and implemented computer vision algorithms to correct geolocation error in SAR imagery. Built deployment tooling. fine-tuned internal segmentation models.",
+    desc: "designed and implemented computer vision algorithms to correct geolocation error in SAR imagery. built deployment tooling. fine-tuned internal segmentation models.",
     link: "https://www.iceye.com/"
   },
   {
