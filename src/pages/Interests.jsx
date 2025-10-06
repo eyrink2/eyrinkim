@@ -62,7 +62,7 @@ function AboutSection() {
           currently, I'm deeply interested in the energy problem in America and firmly believe
           it is the most critical issue of my generation. I love the conjunction
           between software & hardware, as reaffirmed by my most recent work with SAR satellites,
-          but I have so much to learn on both frontiers. in that vein, I'm perenially attempting
+          but I have so much to learn on both frontiers. in that vein, I'm perennially attempting
           to maximize my ability to solve interesting problems alongside interesting people 
           (everything is gradient descent?).
         </p>
