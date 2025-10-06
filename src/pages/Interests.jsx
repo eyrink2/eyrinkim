@@ -3,7 +3,6 @@ import { useScramble } from "use-scramble";
 
 const interests = {
   Literature: [
-    "all of the Anne of Green Gables works, but specifically the 8th and last novel",
     "Speak, Okinawa",
     "Beautiful World, Where Are You",
     "A Gentleman in Moscow",
