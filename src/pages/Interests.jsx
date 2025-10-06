@@ -58,14 +58,16 @@ function AboutSection() {
       <h2 ref={aboutRef} className="section-head" />
       <div className="about-content">
         <p>
-          korean-american and proud tennessean studying artificial intelligence and earth systems at Stanford.
-          currently, I'm deeply interested in the energy problem in America. I love the conjunction
-          between software & hardware as evidenced by my most recent work in SAR satellites. I'm 
-          on a perpetual quest to maximize my opportunities in re solving interesting problems with interesting people
+          20-year-old studying artificial intelligence and earth systems at Stanford.
+          currently, I'm deeply interested in the energy problem in America and firmly believe
+          it is the most critical issue of my generation. I love the conjunction
+          between software & hardware, as reaffirmed by my most recent work with SAR satellites,
+          but I have so much to learn on both frontiers. in that vein, I'm perenially attempting
+          to maximize my ability to solve interesting problems alongside interesting people 
           (everything is gradient descent?).
         </p>
         <p>
-          below is my personal anthology. shoot me recommendations at eyrinkim@stanford.edu.
+          below is my personal anthology. shoot me recommendations at eyrinkim@stanford.edu!
         </p>
       </div>
     </div>
