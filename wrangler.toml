@@ -1,0 +1,10 @@
+name = "eyrinkim-site"
+compatibility_date = "2024-01-01"
+
+[env.production]
+name = "eyrinkim-site"
+route = "eyrinkim.com/*"
+
+[[env.production.routes]]
+pattern = "eyrinkim.com/*"
+zone_name = "eyrinkim.com"
