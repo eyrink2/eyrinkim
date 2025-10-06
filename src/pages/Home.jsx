@@ -3,21 +3,52 @@ import { useScramble } from "use-scramble";
 import { timeline } from "../data/timeline";
 import TimelineItem from "../components/TimelineItem";
 
-export default function Home() {
-  const { ref: sectionRef } = useScramble({
-    text: "work & experience",
-    speed: 0.6,
-    scramble: 6,
-    playOnMount: true
-  });
+const personalTimeline = [
+  {
+    date: "at Stanford",
+    title: "organizing",
+    org: "ASES, SSIG, Stanford Climate Week",
+    desc: "building for and with a community of students interested in startups, climate, tech, and the markets that move all three.",
+  },
+  {
+    date: "Jun - Aug 2025",
+    title: "admin",
+    org: "FR8",
+    desc: "helped run the world's first hacker hotel. lots of polar plunges into the finnish sea.",
+    link: "https://fr8manifes.to/",
+  },
+  {
+    date: "Jun - July 2023",
+    title: "backpacking in the Monongahela National Forest",
+    desc: "fell in love with being off the grid.",
+  },
+  {
+    date: "childhood",
+    title: "growing up in the backyard of the Smoky Montains",
+    desc: "primarily quarry hopping, waterfall hunting, and playing kickball barefoot.",
+  }
+];
 
+export default function Home() {
   return (
     <section>
-      <h2 ref={sectionRef} className="section-head" />
-      <div className="timeline">
-        {timeline.map((item, i) => (
-          <TimelineItem key={i} item={item} />
-        ))}
+      <div className="dual-timeline">
+        <div className="timeline-main">
+          <h3 className="timeline-title">professional</h3>
+          <div className="timeline">
+            {timeline.map((item, i) => (
+              <TimelineItem key={i} item={item} />
+            ))}
+          </div>
+        </div>
+        <div className="timeline-personal">
+          <h3 className="timeline-title">personal</h3>
+          <div className="timeline timeline-half">
+            {personalTimeline.map((item, i) => (
+              <TimelineItem key={i} item={item} />
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );

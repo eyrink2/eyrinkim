@@ -1,42 +1,47 @@
+// note to self:
+// npm run build
+// wrangler pages deploy dist --project-name=eyrinkim
+
 export const timeline = [
   {
-    date: "Jun 2025 – Aug 2025",
-    title: "Engineering",
+    date: "Jun – Aug 2025",
+    title: "engineering",
     org: "ICEYE",
-    desc: "Designed and implemented computer vision algorithms to correct geolocation error in SAR imagery; built deployment tooling and fine-tuned segmentation models to improve recall.",
+    desc: "designed and implemented computer vision algorithms to correct geolocation error in SAR imagery. Built deployment tooling. fine-tuned internal segmentation models.",
     link: "https://www.iceye.com/"
   },
   {
     date: "Oct 2024 – Present",
-    title: "Investment Partner",
+    title: "investment partner",
     org: "Dorm Room Fund",
-    desc: "Investing $90-250k SAFE notes in student-built startups; led multiple investments in robotics and data infrastructure.",
+    desc: "investing $90-250k SAFE notes in student founders. currently have led deals in robotics, data infrastructure, and geoengineering.",
     link: "https://www.dormroomfund.com/"
   },
   {
     date: "Jun – Aug 2024",
-    title: "Engineering Fellow",
+    title: "engineering fellow",
     org: "SIRUM",
-    desc: "Developed predictive algorithms to optimize inventory and automate mapping across databases; eliminated 98% of manual logging errors.",
+    desc: "developed predictive algorithms to optimize drug inventory and automate mapping across databases.",
     link: "https://sirum.org/"
   },
   {
     date: "May – Aug 2024",
-    title: "Product Strategist",
-    org: "Stanford CTL (ClassConnect)",
-    desc: "Defined and executed product roadmap and UX specifications for Stanford’s ClassConnect matchmaking platform.",
+    title: "product strategist",
+    org: "Stanford University",
+    desc: "designed tools for Stanford's undergraduate body.",
   },
   {
     date: "Oct 2023 – Apr 2024",
-    title: "Data Analysis Intern",
+    title: "data r&d",
     org: "Climate AI",
-    desc: "Built full-stack analytics dashboard integrating NASA satellite APIs for enterprise risk analysis.",
+    desc: "built full-stack analytics dashboard integrating NASA satellite APIs for enterprise risk analysis.",
+    link: "https://climate.ai/"
   },
   {
     date: "May 2022 – Nov 2023",
-    title: "Student Researcher",
+    title: "student researcher",
     org: "Oak Ridge National Laboratory",
-    skills: "Python · Geospatial Analysis · Optimization",
+    desc: "statistical optimization of the distribution of aid during natural disasters. also, direct air capture research.",
     link: "https://www.ornl.gov/"
   }
 ];
