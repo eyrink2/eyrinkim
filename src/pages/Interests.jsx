@@ -3,11 +3,10 @@ import { useScramble } from "use-scramble";
 
 const interests = {
   Literature: [
-    "The entire Anne of Green Gables works",
+    "all of the Anne of Green Gables works, but specifically the 8th and last novel",
     "Speak, Okinawa",
     "Beautiful World, Where Are You",
     "A Gentleman in Moscow",
-    "Devotions"
   ],
   Film: [
     "Grave of the Fireflies",
@@ -59,11 +58,11 @@ function AboutSection() {
       <div className="about-content">
         <p>
           20-year-old studying artificial intelligence and earth systems at Stanford.
-          currently, I'm deeply interested in the energy problem in America and firmly believe
-          it is the most critical issue of my generation. I love the conjunction
+          big fan of our planet. I'm currentlydeeply interested in the energy problem
+          in America and believe it is the most critical issue of my generation. I love the conjunction
           between software & hardware, as reaffirmed by my most recent work with SAR satellites,
-          but I have so much to learn on both frontiers. in that vein, I'm perennially attempting
-          to maximize my ability to solve interesting problems alongside interesting people 
+          but I still have an incredible amount to learn on both frontiers. in that vein, 
+          I'm perennially attempting to maximize my ability to solve interesting problems with interesting people 
           (everything is gradient descent?).
         </p>
         <p>
