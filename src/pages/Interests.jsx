@@ -3,8 +3,8 @@ import { useScramble } from "use-scramble";
 
 const interests = {
   Literature: [
-    "Speak, Okinawa",
     "Beautiful World, Where Are You",
+    "Speak, Okinawa",
     "A Gentleman in Moscow",
     "all of the Anne of Green Gables works, but specifically the 8th and last novel"
   ],
@@ -47,7 +47,7 @@ export default function Interests() {
 function AboutSection() {
   const { ref: aboutRef } = useScramble({
     text: "about me",
-    speed: 0.6,
+    speed: 0.3,
     scramble: 6,
     playOnMount: true
   });
@@ -57,12 +57,12 @@ function AboutSection() {
       <h2 ref={aboutRef} className="section-head" />
       <div className="about-content">
         <p>
-          20-year-old studying artificial intelligence and earth systems at Stanford.
-          big fan of our planet. I'm currentlydeeply interested in the energy problem
+          20-year-old studying artificial intelligence and earth systems at Stanford &
+          big lover of this planet. I'm currently deeply interested in the energy problem
           in America and believe it is the most critical issue of my generation. I love the conjunction
-          between software & hardware, as reaffirmed by my most recent work with SAR satellites,
-          but I still have an incredible amount to learn on both frontiers. in that vein, 
-          I'm perennially attempting to maximize my ability to solve interesting problems with interesting people 
+          between software & hardware, as reaffirmed by my most recent work with SAR satellites, and 
+          also spend a lot of time thinking about green compute & ai safety. in that vein, I'm perennially working 
+          to maximize my ability to solve interesting problems with interesting people 
           (everything is gradient descent?).
         </p>
         <p>
@@ -76,7 +76,7 @@ function AboutSection() {
 function InterestCard({ category, items }) {
   const { ref: categoryRef } = useScramble({
     text: category,
-    speed: 0.4,
+    speed: 0.3,
     scramble: 4,
     playOnMount: true
   });
