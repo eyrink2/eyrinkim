@@ -11,14 +11,14 @@ const personalTimeline = [
     desc: "building for and with a community of students interested in startups, climate, tech, and the markets that shape all three.",
   },
   {
-    date: "summer 2025",
+    date: "Jun - Aug 2025",
     title: "admin",
     org: "FR8",
     desc: "helped run the world's first hacker hotel. lots of polar plunges in the finnish sea.",
     link: "https://fr8manifes.to/",
   },
   {
-    date: "the summer before Stanford",
+    date: "Jun - July 2023",
     title: "backpacking in the Monongahela National Forest",
     desc: "loved being off the grid.",
   },

@@ -62,8 +62,7 @@ function AboutSection() {
           in America and believe it is the most critical issue of my generation. I love the conjunction
           between software & hardware, as reaffirmed by my most recent work with SAR satellites, and 
           also spend a lot of time thinking about green compute & ai safety. in that vein, I'm perennially working 
-          to maximize my ability to solve interesting problems with interesting people 
-          (everything is gradient descent?).
+          to maximize my ability to solve interesting problems with interesting people.
         </p>
         <p>
           below is my personal multi-media anthology. shoot me recommendations at eyrinkim@stanford.edu!
