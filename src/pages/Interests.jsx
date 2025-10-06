@@ -8,16 +8,16 @@ const interests = {
     "A Gentleman in Moscow",
     "all of the Anne of Green Gables works, but specifically the 8th and last novel"
   ],
-  Film: [
-    "Grave of the Fireflies",
-    "Interstellar",
-    "Everything Everywhere All At Once"
-  ],
   Essays: [
     { text: "The Ones who Walk Away from the Omelas", link: "https://shsdavisapes.pbworks.com/f/Omelas.pdf" },
     { text: "You don't need to work on hard problems", link: "https://www.benkuhn.net/hard/" },
     { text: "On Caring", link: "https://mindingourway.com/on-caring/" },
     { text: "This is Water", link: "https://fs.blog/david-foster-wallace-this-is-water/" }
+  ],
+  Film: [
+    "Grave of the Fireflies",
+    "Interstellar",
+    "Everything Everywhere All At Once"
   ],
   "Podcast episodes": [
     { text: "Joscha Bach on intelligence", link: "https://www.youtube.com/watch?v=3MkJEGE9GRY" },
@@ -66,7 +66,7 @@ function AboutSection() {
           (everything is gradient descent?).
         </p>
         <p>
-          below is my personal anthology. shoot me recommendations at eyrinkim@stanford.edu!
+          below is my personal multi-media anthology. shoot me recommendations at eyrinkim@stanford.edu!
         </p>
       </div>
     </div>

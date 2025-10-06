@@ -8,24 +8,24 @@ const personalTimeline = [
     date: "at Stanford",
     title: "organizing",
     org: "ASES, SSIG, Stanford Climate Week",
-    desc: "building for and with a community of students interested in startups, climate, tech, and the markets that move all three.",
+    desc: "building for and with a community of students interested in startups, climate, tech, and the markets that shape all three.",
   },
   {
-    date: "Jun - Aug 2025",
+    date: "summer 2025",
     title: "admin",
     org: "FR8",
-    desc: "helped run the world's first hacker hotel. lots of polar plunges into the finnish sea.",
+    desc: "helped run the world's first hacker hotel. lots of polar plunges in the finnish sea.",
     link: "https://fr8manifes.to/",
   },
   {
-    date: "Jun - July 2023",
+    date: "the summer before Stanford",
     title: "backpacking in the Monongahela National Forest",
-    desc: "fell in love with being off the grid.",
+    desc: "loved being off the grid.",
   },
   {
-    date: "childhood",
+    date: "my childhood",
     title: "growing up in the backyard of the Smoky Montains",
-    desc: "primarily quarry hopping, waterfall hunting, and playing kickball barefoot.",
+    desc: "primarily quarry hopping and playing kickball barefoot. wrote a little, read a lot.",
   }
 ];
 
