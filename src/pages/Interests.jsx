@@ -6,18 +6,14 @@ const interests = {
     "Beautiful World, Where Are You",
     "Speak, Okinawa",
     "A Gentleman in Moscow",
+    "Klara and the Sun",
     "all of the Anne of Green Gables works, but specifically the 8th and last novel"
   ],
   Essays: [
     { text: "The Ones who Walk Away from the Omelas", link: "https://shsdavisapes.pbworks.com/f/Omelas.pdf" },
     { text: "You don't need to work on hard problems", link: "https://www.benkuhn.net/hard/" },
     { text: "On Caring", link: "https://mindingourway.com/on-caring/" },
-    { text: "This is Water", link: "https://fs.blog/david-foster-wallace-this-is-water/" }
-  ],
-  Film: [
-    "Grave of the Fireflies",
-    "Interstellar",
-    "Everything Everywhere All At Once"
+    { text: "No Good Alone", link: "https://internetprincess.substack.com/p/no-good-alone" }
   ],
   "Podcast episodes": [
     { text: "Joscha Bach on intelligence", link: "https://www.youtube.com/watch?v=3MkJEGE9GRY" },
