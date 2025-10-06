@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useScramble } from "use-scramble";
-import photoSrc from "./website_photo.jpg";
+import photoSrc from "./foto.jpg";
 
 const interests = {
   Literature: [
@@ -69,12 +69,12 @@ function AboutSection() {
         <div className="about-content" ref={textBoxRef}>
           <div className="about-text">
             <p>
-              20-year-old studying artificial intelligence and earth systems at Stanford &
-              big lover of this planet. I'm currently deeply interested in the energy problem
+              student learning about artificial intelligence & earth systems at Stanford and
+              big fan of this planet. I'm deeply interested in the energy problem
               in America and believe it is the most critical issue of my generation. I love the conjunction
               between software & hardware, as reaffirmed by my most recent work with SAR satellites, and 
-              also spend a lot of time thinking about green compute & ai safety. in that vein, I'm perennially working 
-              to maximize my ability to solve interesting problems with interesting people.
+              also spend a lot of time thinking about green compute, the electric grid, and entropy. 
+              in that vein, I'm perennially working to maximize my ability to solve interesting problems with interesting people.
             </p>
             <p>
               below is my personal multi-media anthology (that admittedly has little to do with the above

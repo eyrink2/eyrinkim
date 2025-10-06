@@ -7,13 +7,18 @@ import Interests from "./pages/Interests";
 
 function Footer() {
   const { ref: footerRef } = useScramble({
-    text: `© ${new Date().getFullYear()} eyrin kim`,
+    text: `© ${new Date().getFullYear()} eyrin kim | eyrinkim@stanford.edu | `,
     speed: 0.3,
     scramble: 3,
     playOnMount: true
   });
 
-  return <footer ref={footerRef} />;
+  return (
+    <footer>
+      <span ref={footerRef} />
+      <a href="https://www.linkedin.com/in/eyrin-kim/" target="_blank" rel="noreferrer">linkedin</a>
+    </footer>
+  );
 }
 
 export default function App() {
