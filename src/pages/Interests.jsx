@@ -6,6 +6,7 @@ const interests = {
     "Speak, Okinawa",
     "Beautiful World, Where Are You",
     "A Gentleman in Moscow",
+    "all of the Anne of Green Gables works, but specifically the 8th and last novel"
   ],
   Film: [
     "Grave of the Fireflies",
