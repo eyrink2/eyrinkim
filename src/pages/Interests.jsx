@@ -72,11 +72,11 @@ function AboutSection() {
           <div className="about-text">
             <p>
               student learning about artificial intelligence & earth systems at Stanford and
-              big fan of this planet. I'm deeply interested in the energy problem
-              in America and believe it is the most critical issue of my generation. I love the conjunction
+              big fan of this planet. i'm deeply interested in the energy problem
+              in america and believe it is the most critical issue of my generation. i love the conjunction
               between software & hardware, as reaffirmed by my most recent work with SAR satellites, and 
               also spend a lot of time thinking about green compute, the electric grid, and entropy. 
-              in that vein, I'm perennially working to maximize my ability to solve interesting problems with interesting people.
+              in that vein, i'm perennially working to maximize my ability to solve interesting problems with interesting people.
             </p>
             <p>
               below is my personal multi-media anthology (that admittedly has little to do with the above
@@ -144,7 +144,7 @@ function PastProjectsCard() {
         <ul>
           <li>
             <Link to="/projects" className="interest-link">
-              some rough sketches
+              some documentation & rough sketches
             </Link>
           </li>
         </ul>

@@ -1,10 +1,20 @@
-import React from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Routes, Route, Link, useLocation } from "react-router-dom";
 import { useScramble } from "use-scramble";
 import SiteTitle from "./components/SiteTitle";
 import Home from "./pages/Home";
 import Interests from "./pages/Interests";
 import Projects from "./pages/Projects";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function Footer() {
   const { ref: footerRef } = useScramble({
@@ -39,6 +49,7 @@ export default function App() {
 
   return (
     <div className="container">
+      <ScrollToTop />
       <header className="header">
         <SiteTitle />
         <nav>
