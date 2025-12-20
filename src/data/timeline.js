@@ -3,6 +3,20 @@
 // wrangler pages deploy dist --project-name=eyrinkim
 
 export const timeline = [
+    {
+    date: "Jan 2026 – Present",
+    title: "forward deployed engineering",
+    org: "Unlimited Industries",
+    desc: "bringing about physical abundance in america, one day (hopefully) building cities at the push of a button. 8th hire. simultaneously the scariest and most exciting opportunity of my career.",
+    link: "https://www.unlimitedindustries.com/"
+  },
+  {
+    date: "Nov 2025 – Present",
+    title: "research",
+    org: "ECHO Lab",
+    desc: "geospatial machine learning under Prof. Marshall Burke. mostly investigating how to use satellite images to predict poverty.",
+    link: "https://www.stanfordecholab.com/"
+  },
   {
     date: "Jun – Aug 2025",
     title: "engineering",

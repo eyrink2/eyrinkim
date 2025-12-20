@@ -23,7 +23,7 @@ function Footer() {
 
 export default function App() {
   const { ref: workRef, replay: replayWork } = useScramble({
-    text: "cv",
+    text: "timeline",
     speed: 0.4,
     scramble: 4,
     playOnMount: true
