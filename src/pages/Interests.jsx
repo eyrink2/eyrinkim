@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useScramble } from "use-scramble";
+import { Link } from "react-router-dom";
 import photoSrc from "./foto.jpg";
 
 const interests = {
@@ -36,6 +37,7 @@ export default function Interests() {
         {Object.entries(interests).map(([k, v]) => (
           <InterestCard key={k} category={k} items={v} />
         ))}
+        <PastProjectsCard />
       </div>
     </section>
   );
@@ -125,4 +127,28 @@ function InterestItem({ text }) {
     );
   }
   return <li>{text.text}</li>;
+}
+
+function PastProjectsCard() {
+  const { ref: categoryRef } = useScramble({
+    text: "past projects",
+    speed: 0.3,
+    scramble: 4,
+    playOnMount: true
+  });
+
+  return (
+    <div className="interest-card">
+      <h3 ref={categoryRef} className="interest-title" />
+      <div className="card">
+        <ul>
+          <li>
+            <Link to="/projects" className="interest-link">
+              some rough sketches
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 }

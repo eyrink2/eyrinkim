@@ -21,13 +21,13 @@ const personalTimeline = [
     date: "Jun - Aug 2025",
     title: "admin",
     org: "FR8",
-    desc: "helped run the world's first hacker hotel. a spectacular summer of polar plunges into the finnish sea.",
+    desc: "helped run the world's first hacker hotel. lots of polar plunges into the finnish sea.",
     link: "https://fr8manifes.to/",
   },
   {
     date: "summer before college",
     title: "backpacking in the Monongahela National Forest",
-    desc: "loved spending time off the grid. \"west virginia, mountain mama\" took on new meaning.",
+    desc: "spent some time off the grid. \"west virginia, mountain mama\" took on new meaning.",
   },
   {
     date: "my childhood",

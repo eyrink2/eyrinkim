@@ -14,7 +14,7 @@ export const timeline = [
     date: "Nov 2025 – Present",
     title: "research",
     org: "ECHO Lab",
-    desc: "geospatial machine learning under Prof. Marshall Burke. mostly investigating how to use satellite images to predict poverty.",
+    desc: "geospatial machine learning under prof. Marshall Burke. mostly investigating how to use satellite images to predict poverty.",
     link: "https://www.stanfordecholab.com/"
   },
   {
@@ -35,15 +35,15 @@ export const timeline = [
     date: "Jun – Aug 2024",
     title: "engineering fellow",
     org: "SIRUM",
-    desc: "developed predictive algorithms to optimize drug inventory and automate mapping across databases.",
+    desc: "developed predictive algorithms to optimize drug inventory and automate mapping across databases. sponsored by stanford's social entrepreneurship fellowship.",
     link: "https://sirum.org/"
   },
-  {
-    date: "May – Aug 2024",
-    title: "product strategist",
-    org: "Stanford University",
-    desc: "designed tools for Stanford's undergraduate body.",
-  },
+  // {
+  //   date: "May – Aug 2024",
+  //   title: "product strategist",
+  //   org: "Stanford University",
+  //   desc: "designed tools for Stanford's undergraduate body.",
+  // },
   {
     date: "Oct 2023 – Apr 2024",
     title: "data r&d",
@@ -55,7 +55,7 @@ export const timeline = [
     date: "May 2022 – Nov 2023",
     title: "student researcher",
     org: "Oak Ridge National Laboratory",
-    desc: "statistical optimization of the distribution of aid during natural disasters. also, direct air capture research.",
+    desc: "statistical optimization of the distribution of aid during natural disasters. also, direct air capture research focused on regenerative microwave technology.",
     link: "https://www.ornl.gov/"
   }
 ];

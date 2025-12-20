@@ -4,6 +4,7 @@ import { useScramble } from "use-scramble";
 import SiteTitle from "./components/SiteTitle";
 import Home from "./pages/Home";
 import Interests from "./pages/Interests";
+import Projects from "./pages/Projects";
 
 function Footer() {
   const { ref: footerRef } = useScramble({
@@ -49,6 +50,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/anthology" element={<Interests />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
       <Footer />
