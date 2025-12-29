@@ -343,6 +343,49 @@ a {
 @media (max-width: 800px) {
   .about-row { grid-template-columns: 1fr; }
   .about-photo-outside { height: 220px; }
+  
+  .dual-timeline {
+    flex-direction: column;
+    gap: 0;
+    padding: 0 20px;
+  }
+  
+  .timeline-main,
+  .timeline-personal {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 24px;
+  }
+  
+  .timeline {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    gap: 16px;
+  }
+  
+  .timeline-item {
+    margin-bottom: 0;
+  }
+  
+  .timeline-dot {
+    display: none;
+  }
+  
+  .timeline-main .timeline-content,
+  .timeline-half .timeline-content {
+    max-width: 100%;
+    width: 100%;
+    padding: 16px;
+    margin: 0;
+  }
+  
+  .timeline-title {
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 1.075rem;
+    position: static;
+  }
 }
 
 footer {
