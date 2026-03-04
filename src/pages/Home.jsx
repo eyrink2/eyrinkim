@@ -14,7 +14,7 @@ const personalTimeline = [
   {
     date: "at Stanford",
     title: "organizing",
-    org: "ASES, SSIG, Stanford Climate Week",
+    org: "Stanford Climate Week, Cardinal Ventures, SSIG",
     desc: "building for and with a community of students interested in startups, climate, tech, and the markets that shape all three.",
   },
   {
