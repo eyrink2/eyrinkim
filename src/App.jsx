@@ -1,69 +1,50 @@
 import React, { useEffect } from "react";
-import { Routes, Route, Link, useLocation } from "react-router-dom";
-import { useScramble } from "use-scramble";
-import SiteTitle from "./components/SiteTitle";
-import Home from "./pages/Home";
-import Interests from "./pages/Interests";
+import { Routes, Route, useLocation } from "react-router-dom";
+import Landing from "./pages/Landing";
+import About from "./pages/About";
+import Timeline from "./pages/Timeline";
+import Anthology from "./pages/Anthology";
 import Projects from "./pages/Projects";
+import PageToggle from "./components/PageToggle";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
+  useEffect(() => { window.scrollTo(0, 0); }, [pathname]);
   return null;
 }
 
 function Footer() {
-  const { ref: footerRef } = useScramble({
-    text: `© ${new Date().getFullYear()} eyrin kim | eyrinkim@stanford.edu | `,
-    speed: 0.3,
-    scramble: 3,
-    playOnMount: true
-  });
-
   return (
-    <footer>
-      <span ref={footerRef} />
-      <a href="https://www.linkedin.com/in/eyrin-kim/" target="_blank" rel="noreferrer">linkedin</a>
+    <footer className="site-footer">
+      <a href="mailto:eyrinkim@stanford.edu" className="site-footer__link">eyrinkim@stanford.edu</a>
+      <span className="site-footer__sep" aria-hidden="true">·</span>
+      <a href="https://www.linkedin.com/in/eyrin-kim/" target="_blank" rel="noreferrer" className="site-footer__link">linkedin</a>
+      <span className="site-footer__sep" aria-hidden="true">·</span>
+      <span className="site-footer__meta">© {new Date().getFullYear()}</span>
     </footer>
   );
 }
 
+function TogglePages() {
+  const { pathname } = useLocation();
+  if (pathname !== "/" && pathname !== "/about") return null;
+  return <PageToggle />;
+}
+
 export default function App() {
-  const { ref: workRef, replay: replayWork } = useScramble({
-    text: "timeline",
-    speed: 0.4,
-    scramble: 4,
-    playOnMount: true
-  });
-
-  const { ref: interestsRef, replay: replayInterests } = useScramble({
-    text: "anthology",
-    speed: 0.4,
-    scramble: 4,
-    playOnMount: true
-  });
-
   return (
-    <div className="container">
+    <div className="app">
       <ScrollToTop />
-      <header className="header">
-        <SiteTitle />
-        <nav>
-          <Link to="/" ref={workRef} onMouseEnter={replayWork} />
-          <Link to="/anthology" ref={interestsRef} onMouseEnter={replayInterests} />
-        </nav>
-      </header>
-      <main>
+      <main className="app-main">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/anthology" element={<Interests />} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/timeline" element={<Timeline />} />
+          <Route path="/anthology" element={<Anthology />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
+      <TogglePages />
       <Footer />
     </div>
   );
