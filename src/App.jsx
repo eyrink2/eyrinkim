@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
-import { Routes, Route, useLocation } from "react-router-dom";
-import Landing from "./pages/Landing";
+import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import About from "./pages/About";
 import Timeline from "./pages/Timeline";
 import Anthology from "./pages/Anthology";
 import Projects from "./pages/Projects";
-import PageToggle from "./components/PageToggle";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -25,26 +23,19 @@ function Footer() {
   );
 }
 
-function TogglePages() {
-  const { pathname } = useLocation();
-  if (pathname !== "/" && pathname !== "/about") return null;
-  return <PageToggle />;
-}
-
 export default function App() {
   return (
     <div className="app">
       <ScrollToTop />
       <main className="app-main">
         <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
+          <Route path="/about" element={<Navigate to="/" replace />} />
           <Route path="/timeline" element={<Timeline />} />
           <Route path="/anthology" element={<Anthology />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </main>
-      <TogglePages />
       <Footer />
     </div>
   );

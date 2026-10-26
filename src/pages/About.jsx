@@ -1,5 +1,4 @@
 import React from "react";
-import Plate from "../components/Plate";
 
 const categories = [
   {
@@ -23,7 +22,7 @@ const categories = [
   {
     label: "RESEARCH",
     items: [
-      { role: "Student Researcher", org: "ECHO Lab", link: "https://www.stanfordecholab.com/" },
+      { role: "Student Researcher", org: "S3L", link: "https://s3l.stanford.edu/" },
       { role: "Formerly", org: "Oak Ridge National Lab", link: "https://www.ornl.gov/" }
     ]
   },
@@ -58,8 +57,9 @@ function Bullet({ item }) {
 
 export default function About() {
   return (
-    <Plate variant="back">
+    <div className="about-page">
       <div className="about-grid">
+        <h1 className="about-name">Eyrin Kim</h1>
         <div className="about-col about-col--left">
           <div className="about-photo-wrap">
             <img src="/headshot.jpg" alt="Eyrin Kim" className="about-photo" />
@@ -99,6 +99,6 @@ export default function About() {
           ))}
         </div>
       </div>
-    </Plate>
+    </div>
   );
 }
